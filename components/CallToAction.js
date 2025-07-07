@@ -13,7 +13,7 @@ export default function CallToAction() {
   const handleDemoClick = async () => {
     if (!demoEmail || !demoPassword) {
       console.error("Demo credentials are missing in environment variables.");
-      alert("Demo credentials are not set up. Please contact support.");
+      alert("Demo credentials     are not set up. Please contact support.");
       return;
     }
 
